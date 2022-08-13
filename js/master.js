@@ -156,7 +156,7 @@ function randomizeBackground(){
     //get random number
     let random=Math.floor(Math.random()*imgsArray.length);
     //change background image url
-    landing.style.backgroundImage=`url('../images/${imgsArray[random]}')`
+    landing.style.backgroundImage=`url('images/${imgsArray[random]}')`
 }   ,10000)}
 }
 randomizeBackground()
